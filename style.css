@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative; 
+}
+
+.box{
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 62px;
+}
+
+.navbar img{
+    color: red;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 62px);
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    padding: 0 30px;
+    text-align: center;
+    gap: 23px;
+}
+
+.hero> :nth-child(1){
+   font-weight: 900;
+   font-size: 48px;
+   text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+} 
+
+.seperation{
+    height: 7px;
+    background-color: rgb(50, 48, 48);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.btn{
+    padding: 3px 8px;
+    background-color: rgba(23, 23, 23, 1) ;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor:pointer;
+    border: 1px solid rgb(67, 65, 65);
+}
+
+.btn-red-sm{
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+}
+
+.btn-red{
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    padding: 3px 24px;
+    border-radius: 4px;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    background-color: rgba(23, 23, 23, 1);
+    color: #fff;
+    border: 0.1px solid rgb(67, 65, 65);
+    font-size: 12px;
+}
